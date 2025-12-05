@@ -1,0 +1,62 @@
+############################################
+# FRONTEND (Next.js)
+############################################
+
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+frontend/.turbo/
+frontend/turbo/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Next.js build artifacts
+**/.next/
+**/out/
+
+############################################
+# Supabase
+############################################
+
+supabase/.branches/
+supabase/.temp/
+supabase/.output/
+supabase/db/
+supabase/.env
+supabase/.env.local
+supabase/functions/*/node_modules/
+supabase/functions/*/.deps/
+
+############################################
+# Node / Logs
+############################################
+
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+############################################
+# Environment Secrets
+############################################
+
+.env
+.env.local
+.env.*
+.env.*.local
+
+############################################
+# OS & Editor Files
+############################################
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+############################################
+# TypeScript Artifacts
+############################################
+
+*.tsbuildinfo
