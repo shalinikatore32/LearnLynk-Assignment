@@ -1,4 +1,4 @@
-# 🚀 LearnLynk Task Management
+# 🚀 Task Management with Supabase and NextJS
 
 ### **Full-stack implementation using Supabase, Edge Functions, Next.js, React Query & TailwindCSS**
 
